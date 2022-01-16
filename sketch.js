@@ -6,6 +6,13 @@ var manIMG,man
 
 var rain
 
+var maxDrops=100
+
+for(var i=0; i<maxDrops; i++)
+{
+    
+    maxDrops.push(new CreateDrops(random(0,400)),(random(0,400)))
+}
 
 function preload(){
     manIMG = loadAnimation('images/Walking Frame/walking_1.png','images/Walking Frame/walking_2.png','images/Walking Frame/walking_3.png','images/Walking Frame/walking_4.png',

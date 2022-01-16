@@ -14,14 +14,8 @@ class CreateDrops
 
     display()
     {
-        var maxDrops=100
-
-        for(var i=0; i<maxDrops; i++)
-        {
-            
-            maxDrops.push(new CreateDrops(random(0,400)),(random(0,400)))
-            
-        }
+       
+        
         translate(this.body.position.x, this.body.position.y);
         ellipseMode(RADIUS);
         eliipse(0, 0, this.r);
